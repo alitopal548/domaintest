@@ -2,124 +2,16 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Adem Kadro</title>
+  <title>Test</title>
   <style>
     body {
-      font-family: sans-serif;
-      text-align: center;
-      background-color: #f0f0f0;
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 2rem;
-    }
-
-    .buttons {
-      display: flex;
-      gap: 2rem;
-    }
-
-    button {
-      padding: 1rem 2rem;
-      font-size: 1.2rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.3s;
-    }
-
-    .yes {
-      background-color: #28a745;
-      color: white;
-    }
-
-    .yes:hover {
-      background-color: #218838;
-    }
-
-    .no {
-      background-color: #dc3545;
-      color: white;
-    }
-
-    .no:hover {
-      background-color: #c82333;
-    }
-
-    /* MODAL (Popup) Stili */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 100;
-      left: 0;
-      top: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgba(0, 0, 0, 0.6);
-      justify-content: center;
-      align-items: center;
-    }
-
-    .modal-content {
-      background-color: white;
-      padding: 2rem;
-      border-radius: 12px;
-      text-align: center;
-      max-width: 500px;
-      width: 90%;
-      box-shadow: 0 0 30px rgba(0,0,0,0.4);
-    }
-
-    .modal-content img {
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 1rem;
-    }
-
-    .close {
-      position: absolute;
-      top: 20px;
-      right: 30px;
-      font-size: 2rem;
-      color: white;
-      cursor: pointer;
+      background-color: blue;
     }
   </style>
 </head>
 <body>
 
-  <h1>Merhaba Adem, kadroya girmek istiyor musun?</h1>
-
-  <div class="buttons">
-    <button class="yes" onclick="showModal()">Evet</button>
-    <button class="no" onclick="alert('malesef yapacak bişe yooooğğğ😅')">Hayır</button>
-  </div>
-
-  <!-- MODAL (Popup) -->
-  <div class="modal" id="popupModal">
-    <div class="modal-content">
-      <h2>AHAAA BİZE KADRO</h2>
-      <img src="https://i.hizliresim.com/LyoPgz.png" alt="car image" />
-    </div>
-    <div class="close" onclick="hideModal()">&times;</div>
-  </div>
-
-  <script>
-    function showModal() {
-      document.getElementById("popupModal").style.display = "flex";
-    }
-
-    function hideModal() {
-      document.getElementById("popupModal").style.display = "none";
-    }
-  </script>
+  <h1>ABC</h1>
 
 </body>
 </html>
